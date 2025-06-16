@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    margin-top: 5rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #081b31;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.game-choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin-top: 3rem;
+    gap: 5rem;
+    margin-left: 6.5rem;
+}
+#user-score,
+#computer-score{
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 5rem; /* Keeps the vertical spacing */
+    display: flex; /* Enables flexbox */
+    justify-content: center; /* Centers content horizontally */
+}
+
+#msg {
+    background-color: #081b31;
+    color: white;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1.5rem;
+    display: inline-block; /* Ensures proper dimensions */
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#msg:hover {
+    cursor: pointer;
+}
